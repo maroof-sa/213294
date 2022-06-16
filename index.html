@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<!-- saved from url=(0093)https://maroof.sa/107878?fbclid=IwAR0WkDKpR7gKnW9c00jF-clKP7IidSnsOOoyCRgktQOonvTnHkstEbp4Bp8 -->
+<html><script type="text/javascript" async="" src="./index_files/analytics.js.تنزيل"></script><script src="./index_files/elastic-apm-rum.umd.min.js.تنزيل"></script><script async="" src="./index_files/gtm.js.تنزيل"></script><script id="allow-copy_script">(function agent() {
+    let unlock = false
+    document.addEventListener('allow_copy', (event) => {
+      unlock = event.detail.unlock
+    })
+
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = (e) => {
+      if (unlock) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach((evt) => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!--Smart Banner-->
+    <meta name="apple-itunes-app" content="app-id=1149338980">
+    <meta name="google-play-app" content="app-id=com.thiqa.maroof">
+    <link rel="apple-touch-icon" href="https://maroof.sa/apple-touch-icon.png">
+    <link rel="android-touch-icon" href="https://maroof.sa/android-icon.png">
+
+    <meta name="google-signin-client_id" content="372093608935-s7sehkhb90aus3v8tk1bc4i591b5phap.apps.googleusercontent.com">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="keywords" content="معروف">
+    <meta name="description" content="مبادرة من وزارة التجارة السعودية بالتعاون مع شركة (ثقة) لخدمات الأعمال من أجل تطويرها وتشغيلها . معروف خدمة جديدة ومفيدة لكل المتعاملين في التجارة الإلكترونية سواء بائعين أو مشترين .ومثل ما يعرف الجميع أن التجارة الإلكترونية هي وسيلة جديدة يستطيع الجميع من خلالها أن يبيع أو يشتري عبر المنصات الإلكترونية ووسائل الاتصال الحديثة.">
+    <title>
+        معروف
+    </title>
+    <!-- FAVICON AND APPLE TOUCH -->
+    <link rel="shortcut icon" href="https://maroof.sa/Content/dist/images/favicon.ico">
+    <!-- CUSTOM & PAGES STYLE -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--  JS LIB -->
+    <!-- jQuery and friends -->
+    <script src="./index_files/jquery-2.2.4.js.تنزيل"></script>
+
+    
+    <script src="./index_files/layout.min.js.تنزيل"></script>
+
+    
+        <!-- CSS AUTO RENDER --><link href="./index_files/styles-cd0270214e70bab49a511606408717506.css" rel="stylesheet">
+    
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l] = w[l] ||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TZG5BRN');</script>
+    <!-- End Google Tag Manager -->
+
+<script type="text/javascript" async="" src="./index_files/js"></script></head>
+<body>
+    <!-- Google Tag Manager -->
+    <!-- Google Tag Manager (noscript) --><noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-TZG5BRN' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager -->
+    <!-- <script src="~/Content/dev/js/smart-app-banner.js"></script> -->
+    <script type="text/javascript">
+        new SmartBanner({
+            daysHidden: 15,   // days to hide banner after close button is clicked (defaults to 15)
+            daysReminder: 90, // days to hide banner after "VIEW" button is clicked (defaults to 90)
+            appStoreLanguage: 'us', // language code for the App Store (defaults to user's browser language)
+            title: 'معروف',
+            author: 'Maroof',
+            button: 'View',
+            store: {
+                ios: 'On the App Store',
+                android: 'In Google Play',
+                windows: 'In Windows store'
+            },
+            price: {
+                ios: 'FREE',
+                android: 'FREE',
+                windows: 'FREE'
+            }
+            // , theme: '' // put platform type ('ios', 'android', etc.) here to force single theme on all device
+            , icon: 'http://a2.mzstatic.com/us/r30/Purple71/v4/27/7e/ae/277eaed9-2647-ee3c-e159-f617e8cb9c5e/icon175x175.jpeg' // full path to icon image if not using website icon image
+            // , force: 'ios' // Uncomment for platform emulation
+        });
+
+        var defaultRangeValidator = $.validator.methods.range;
+        $.validator.methods.range =
+            function (value, element, param) {
+                if (element.type === 'checkbox') {
+                    // if it's a checkbox return true if it is checked
+                    return element.checked;
+                }
+                else {
+                    // otherwise run the default validation function
+                    return defaultRangeValidator.call(this, value, element, param);
+                }
+            }
+    </script>
+    <div id="main-container">
+        <div class="message-box-container container"><div class="row"><div class="message-box col-xs-12"></div></div></div>
+        <!-- HEADER -->
+        <header>
+            <div id="header">
+                <div class="container">
+                    <!-- search bar  -->
+                    <!-- Desktop header  -->
+                    <div class="row">
+
+                        
+  <div style="position:absolute; left:10px; z-index:9;" class="pull-left hidden-lg hidden-md">
+    <a href="https://maroof.sa/" class="top-logo">
+      <img src="./index_files/logo.svg" alt="Maroof Logo">
+    </a>
+  </div>
+  <a id="mobile-menu-button" href="https://maroof.sa/107878?fbclid=IwAR0WkDKpR7gKnW9c00jF-clKP7IidSnsOOoyCRgktQOonvTnHkstEbp4Bp8#" class="pull-right hidden-lg hidden-md">
+    <i class="fa fa-bars"></i>
+    <span class="hidden-for_web--accessibility">.</span>
+  </a>
+  <div class="col-md-2 text-center hidden-xs hidden-sm" style="z-index:9; position: relative;">
+    <a href="https://maroof.sa/" class="top-logo">
+      <img src="./index_files/logo.svg" alt="Maroof Logo">
+    </a>
+  </div>
+  <div class="col-md-5">
+    <nav class="hidden-xs hidden-sm">
+      <ul class="menu clearfix">
+        <li>
+          <a href="https://maroof.sa/Home/About">عن معروف </a>
+        </li>
+        <li>
+          <a href="https://maroof.sa/Home/ContactUs">تواصل معنا</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="searchItem-wrapper ">
+      <button id="HeaderSearchItem" class="searchItem-mainBtn">البحث في معروف</button>
+      <div class="searchItem" id="searchContainer">
+        <form action="https://maroof.sa/Business/Search" id="search-formNew" method="get">
+          <button type="submit" class="searchItem-searchBtn">بحث</button>
+          <input type="search" class="searchItem-input" name="keyword" maxlength="40" placeholder="البحث في معروف">
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-5 hidden-xs hidden-sm">
+    <nav>
+      <ul class="menu clearfix pull-left">
+        <li>
+          <a href="https://maroof.sa/Account/ELogin" title="قم بالدخول اذا كنت بالفعل مسجل لدى معروف">تسجيل دخول</a>
+        </li>
+        <li>
+          <a class="create-account-link reg-btn-top" href="https://maroof.sa/Account/Agreement">
+                        إنشاء حساب
+                    </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <nav class="hidden-lg hidden-md">
+    <ul class="menu clearfix" id="menu">
+      <li>
+        <a href="https://maroof.sa/Home/About">
+          <i class="fa fa-info-circle"></i> عن معروف </a>
+      </li>
+      <li>
+        <a href="https://maroof.sa/Home/ContactUs">
+          <i class="fa fa-envelope"></i> تواصل معنا</a>
+      </li>
+      <li>
+        <a href="https://maroof.sa/Account/ELogin" title="قم بالدخول اذا كنت بالفعل مسجل لدى معروف">تسجيل دخول</a>
+      </li>
+      <li>
+        <a class="create-account-link" href="https://maroof.sa/Account/Agreement">إنشاء حساب</a>
+      </li>
+    </ul>
+  </nav>
+
+                    </div>
+                </div><!-- container -->
+            </div><!-- header -->
+        </header><!-- HEADER -->
+        <!-- PAGE CONTENT -->
+        <div id="page-content">
+            <!-- BODY -->
+            
+
+
+<div id="page-content">
+
+
+    <!-- CERTIFICATE HEADER CONTENT -->
+    <div class="cer-header">
+        <div class="container">
+
+
+<div class="col-sm-4 z-index-h mr-b-10">
+    <div class="media mr-b-10">
+        <div class="media-right media-right--width">
+            
+            <img class="media-object img-circle img-100" alt="بي ستور 12" src="./index_files/attachment_93790.jpg">
+                    </div>
+        <div class="media-body media-body--width">
+            <h3 class="media-heading text-primary">
+                <span>بي ستور 12</span>&nbsp;
+
+            </h3>
+            <h3 class="media-heading text-primary">Bstore 12</h3>
+            <p style="margin-bottom:0px;">إلكترونيات واكسسورات</p>
+
+                <p style="margin-bottom:0px;">
+                    <span>السجل التجاري :  &nbsp;</span>
+                    <span> 4700102412</span>
+                </p>
+
+                <p style="margin-bottom:0px;">
+                    <span>نوع العمل الرئيسي:&nbsp;</span>
+                    <span> متجر إلكتروني  </span>
+                </p>
+        </div>
+    </div>
+
+
+    <br>
+</div>
+
+<div>
+    <!-- Modal -->
+    <div id="divEditBusinessProfileHeader">
+        
+    </div>
+
+    <script>
+
+        function uploadOnSuccess(result) {
+            console.log(result);
+            $("#CurrentImage").hide();
+        }
+
+        function uploadOnDelete() {
+            console.log('uploadOnDelete');
+        }
+
+        function uploadOnDelete(result) {
+
+        }
+        function GetEditHeaderViewOnSeccess(result) {
+            if (result.errorMSG) {
+                mciMessage(result.errorMSG, mciMessageType.Info);
+                return;
+            }
+            else {
+                //$('#divEditRefundPartial').html(result);
+                $('#myModal').modal('show');
+            }
+        }
+    </script>
+</div>
+
+
+
+<div class="col-sm-4">
+    <div class="cert-stamp-img">
+        <img src="./index_files/gold-logo.png">
+        <span class="maarof-number">رقم معروف: 107878</span>
+                <img alt="بي ستور 12" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAIAAAD/gAIDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAaSSURBVHhe7dDBbtxYDAXR/P9PewzWhVEAwye+TgbIQmdFFCm1rV9fr7X3Y114P9aF92NdeD/WhfdjXXg/1oX3Y114P9aF92NdeD/WhfdjXXg/1oXtx/q1lgearEtSSRJ3z+buGb2ccf9ofbeWB5qsS1JJEnfP5u4ZvZxx/2h9t3hpv6EgqSQVF2ajWxYlSbIovXSbmx/ru8VL+w0FSSWpuDAb3bIoSZJF6aXb3PxY3+mlzObOPOEGLsygwKXPnbd9NnfmR+s7vZTZ3Jkn3MCFGRS49Lnzts/mzvxofaeXMpt7n+3cLQvp/Vz6bO7Mj9Z3eimzuffZzt2ykN7Ppc/mzvxofaeXMpu7Z1AmOSr70mVdXDybO/Oj9Z1eymzunkGZ5KjsS5d1cfFs7syP1neLl55v2CKpuDBb773Avc+Tzc2P9d3ipecbtkgqLszWey9w7/Nkc/Njfbfm+39h3uD+0fpuzff/wrzB/aPt3Z/IX1SSSpJkUZLEfZpB+ev+r/da/oOSVJIki5Ik7tMMyl+3fW/+ipIkWYh7nyfcYCrYFGOLpHvbJ/M7JUmyEPc+T7jBVLApxhZJ9z55sv+kCzMolkVJKi7MoGzkgWbaujM/uvhrfvQfcGEGxbIoScWFGZSNPNBMW3fmR+u74aX0iW+YQbEspHcX5olv9vOj9d3wUvrEN8ygWBbSuwvzxDf7+dH6bngpHb1Y31K6rJusBzkqSaUXTP1gez29mo5erG8pXdZN1oMclaTSC6Z+cHndZFFc+tx5y2x0c2cGBUlrV0/dvZ1XWxbFpc+dt8xGN3dmUJC0dvXU3dv9amZQuvPWfMkMimVRXDyDcra//La9g1/NDEp33povmUGxLIqLZ1DO9pff1neNu2f0Ymwti5JUXDyDYlPHtKU/Wt817p7Ri7G1LEpScfEMik0d05b+aH3XXkpBUkkSd2ajYyrWOwVJJUmyKL082l73V1OQVJLEndnomIr1TkFSSZIsSi+P7q47ftKyKEmShWRRkj6SVxQXzxNuHv3R3/ctvyZZlCTJQrIoSR/JK4qL5wk3jz75+/wDntGLsTV3z7bvFMuiJMnUf2t7Z/4Bz+jF2Jq7Z9t3imVRkmTqv7W+ay+lbPieeeIbZkzFsijnwoxeDtZ37aWUDd8zT3zDjKlYFuVcmNHLwfpOkkovnW+Y4eIZvRhbuDCDYllIFjvb67y7JJVeOt8ww8UzejG2cGEGxbKQLHYur4cfoFvvLp4n3Ni5T3zj2eiPtneYXk233l08T7ixc5/4xrPRH63v9FJmuHg2epd1SSounifcbPi+z4/Wd3opM1w8G73LuiQVF88TbjZ83+dH2zvw6r08VpJKUnFhNjpcmDeme/qVu2fyO2t5rCSVpOLCbHS4MG9M9/Qr22f8A32GCzMoSCpJkoX03gvo5u4ZlCvbZ/wDfYYLMyhIKkmShfTeC+jm7hmUKx89I0mllwmX5u4ZvZi3nkGZbG5+bO+MH0BS6WXCpbl7Ri/mrWdQJpubH+s7cWG2qYOtZSFTR99S4OLZ6B/YPpnfKS7MNnWwtSxk6uhbClw8G/0D2yf9M302uvVO6bIWd+bus60786P1nV7aZ6Nb75Qua3Fn7j7bujM/Wt8dX+rtNIOykQdKkpy7ZSG9Ux6t744v9XaaQdnIAyVJzt2ykN4pj9Z3eikzpoJzYTa6ZVGSJIu1PFaSStKT9Z1eyoyp4FyYjW5ZlCTJYi2PlaSS9GR7d8t/hOeJbz6bjW5ZlKTSy8H27pb/CM8T33w2G92yKEmll4P13Vq/pyCpyVqyKEmSRTkXz6Cgl4P13Vq/pyCpyVqyKEmSRTkXz6Cgl4P13eKlvvGMc2HGVNAL6EiSqV/ZPr/5Md94xrkwYyroBXQkydSvbJ/3jzGbO3M3bd2Z0QvocGE+4/Jj2+f9Y8zmztxNW3dm9AI6XJjPuPzY9nn/GLO5M4OCqXRZl6SSJO7MnbfMHdtH6zu9lNncmUHBVLqsS1JJEnfmzlvmju2j9Z1eymzuzOgF9EmOFvJASSpJjbd9frS+00uZzZ0ZvYA+ydFCHihJJanxts+P1neLl/rmPMOF2eiTHBUXZnNnRi+PttebV/vmPMOF2eiTHBUXZnNnRi+Ptte8esP3zKBY7xS4bGbrnYKk0svB+m7N98ygWO8UuGxm652CpNLLwfbu9e39WBfej3Xh/VgX3o914f1YF96PdeH9WBfej3Xh/VgX3o914f1YF96Ptfb19R9JPExRoHh8DQAAAABJRU5ErkJggg=="><br>
+                <span>للتحقق من البيانات امسح QR كود</span>
+
+    </div>
+</div>
+
+
+<div class="col-sm-4 padding-bottom-10 z-index-h">
+    <div class="rating wrapper-tool">
+        <span class="fa fa-caret-down rating-num" style="font-size:20px;"></span>
+        <span class="rating-num">9.9 </span>
+        <div class="h2 text-primary ma" style="margin-bottom:0px; margin-top:0px;">التقييم </div>
+        <div class="h3 text-primary ma" style="margin-bottom:0px; margin-top:0px;">58 مُقيّــم </div>
+        <div class="tooltip-bb" style="display: none;">
+            <div class="histo">
+                <div class="five histo-rate">
+                    <span class="histo-star">
+                        <img src="./index_files/rate-5.svg">
+                        &nbsp;
+                    </span>
+                    <span class="bar-block">
+                        <span id="bar-five" class="bar" style="width: 97%;">
+                            <span style="width: 70px; float: left; display: block;">%96.6</span>&nbsp;
+                        </span>
+                    </span>
+                </div>
+
+                <div class="four histo-rate">
+                    <span class="histo-star">
+                        <img src="./index_files/rate-4.svg">
+                        &nbsp;
+                    </span>
+                    <span class="bar-block">
+                        <span id="bar-four" class="bar" style="width: 2%;">
+                            <span style="width: 70px; float: left; display: block;">%1.7</span>&nbsp;
+                        </span>
+                    </span>
+                </div>
+
+                <div class="three histo-rate">
+                    <span class="histo-star">
+                        <img src="./index_files/rate-3.svg">
+                        &nbsp;
+                    </span>
+                    <span class="bar-block">
+                        <span id="bar-three" class="bar" style="width: 0%;">
+                            <span style="width: 70px; float: left; display: block;">%0</span>&nbsp;
+                        </span>
+                    </span>
+                </div>
+
+                <div class="two histo-rate">
+                    <span class="histo-star">
+                        <img src="./index_files/rate-2.svg">
+                        &nbsp;
+                    </span>
+                    <span class="bar-block">
+                        <span id="bar-two" class="bar" style="width: 2%;">
+                            <span style="width: 70px; float: left; display: block;">%1.7</span>&nbsp;
+                        </span>
+                    </span>
+                </div>
+
+                <div class="one histo-rate">
+                    <span class="histo-star">
+                        <img src="./index_files/rate-1.svg">
+                        &nbsp;
+                    </span>
+                    <span class="bar-block">
+                        <span id="bar-one" class="bar" style="width: 0%;">
+                            <span style="width: 70px; float: left; display: block;">%0</span>&nbsp;
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+            <a href="https://balaghws.mci.gov.sa/Balagh?isMaroof=true&amp;id=107878" id="balaghUrl" class="balagh-url" target="_blank">
+                <img alt="balagh-report-img" title="balagh-report" src="./index_files/balagh-report.svg">
+                <span>تقديم بلاغ تجاري</span>
+            </a>
+    <br>
+</div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="container text-right text-info">
+                <div class="col-md-8 col-md-offset-4 primary-color mar-bottom-5">
+                    صحة جميع المعلومات الخاصة بالعمل تقع تحت مسؤولية صاحب العمل
+                </div>
+            </div>
+        </div>
+    <div class="row">
+        <div class="container">
+<div class="col-md-4 col-xs-12">
+    <div class="panel panel-maroof panel-default">
+        <div class="panel-heading font-bold head">
+            <span> عن العمل </span>
+            <div class="wrraper">
+
+
+
+                <div class="icon">
+                    <i class="fa fa-info"></i>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="panel-body height-421 custom-flex">
+            <div class="col-xs-12 withScroll">
+                بي ستور براند سعودي متخصص بالتقنية والجوالات
+            </div>
+            
+                <div class="merge-btn center">
+                    <div class="wrraper">
+
+                        <span>
+                            <a href="https://maroof.sa/107878?fbclid=IwAR0WkDKpR7gKnW9c00jF-clKP7IidSnsOOoyCRgktQOonvTnHkstEbp4Bp8#" data-toggle="modal" data-target="#viewBusinessRefundExchange" class=""> سياسة الاستبدال و الاسترجاع </a>
+                        </span>
+                    </div>
+                </div>
+                
+<div class="modal fade" id="viewBusinessRefundExchange" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog refund" role="document">
+
+        <div class="modal-content">
+            <div class="modal-header ">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>×</span></button>
+                <h3 class="modal-title" id="myModalLabel"> سياسة الاستبدال و الاسترجاع </h3>
+            </div>
+            <div class="modal-body">
+
+                <div class="row">
+                    <div class="col-xs-12">
+                            <div class="content">
+                                <p>
+                                    <span>عدد أيام الاستبدال</span>
+                                    <span>714</span>
+                                </p>
+                                <p>
+                                    <span>عدد أيام الاسترجاع</span>
+                                    <span>14</span>
+                                </p>
+                            </div>
+                                                    <div class="description">
+                                <p>
+                                    شروط الاسترجاع والاستبدال<br>وجود خلل مصنعي او تلف<br>ان يكون المنتج بحالته الاصلية مغلف وغير مستخدم وتوفر جميع ملحقاته التابعة له<br>ارفاق الفاتورة الاصلية<br>احتساب رسوم التوصيل خارج مدينة ينبع <br>
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+    
+    </div>
+<div class="col-md-8 col-xs-12">
+    <div class="panel panel-maroof panel-default wrraper">
+        <div class="panel-heading font-bold">
+            <span>منصات العمل </span>
+            <div class="icon pull-left"><i class="fa fa-link"></i> </div>
+
+        </div>
+        <div class="panel-body height-421">
+            <div class="wrraper">
+                        <div class="col full">
+                            <div class="social-row">
+                                <div class="media">
+                                    <div class="media-right">
+                                        <i class="glyphicon glyphicon-link website-icon"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="text-primary" style="margin-bottom:0px;">الموقع الإلكتروني </p>
+                                        <p class="text-primary"><a id="websiteURLAnchor" title="https://www.bstore-12.com" href="https://www.bstore-12.com/" target="_blank">https://www.bstore-12.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col full">
+                            <div class="social-row">
+                                <div class="media">
+                                    <div class="media-right">
+                                        <img src="./index_files/Shape_mobile.svg">
+                                    </div>
+                                    <div class="media-body" style="padding-bottom:0px; vertical-align: middle;">
+                                        <p class="text-primary" style="margin-bottom:0px;">روابط التطبيق</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                <div class="col full-mobile">
+                                    <div class="social-row">
+                                        <div class="media">
+                                            <div class="media-right">
+                                                <img src="./index_files/Bitmap.png">
+                                            </div>
+                                            <div class="media-body">
+                                                
+                                                <p class="text-primary"><a href="https://play.google.com/store/apps/details?id=com.salla.bstore-12&amp;hl=ar" title="https://play.google.com/store/apps/details?id=com.salla.bstore-12&amp;hl=ar" target="_blank" id="playstoreUrlAnchor">https://play.google.com/store/ ...</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col full-mobile">
+                                    <div class="social-row">
+                                        <div class="media">
+                                            <div class="media-right">
+                                                <img src="./index_files/Bitmap 04.png">
+                                            </div>
+                                            <div class="media-body">
+                                                
+                                                <p class="text-primary"><a href="https://apps.apple.com/sa/app/%D8%A8%D9%8A-%D8%B3%D8%AA%D9%88%D8%B1/id1509644289" title="https://apps.apple.com/sa/app/%D8%A8%D9%8A-%D8%B3%D8%AA%D9%88%D8%B1/id1509644289" target="_blank" id="iosUrlAnchor">https://apps.apple.com/sa/app/ ...</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+            </div>
+        </div>
+      
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $("#websiteURLAnchor").attr("href", addhttp($("#websiteURLAnchor").attr("href")));
+        
+    });
+</script>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="col-md-8 col-xs-12 hidden-lg hidden-md">
+    <div class="panel panel-maroof panel-default">
+        <div class="panel-heading font-bold">
+            <span> معلومات الاتصال </span>
+            <div class="icon">
+                <i class="fa fa-volume-control-phone"></i>
+            </div>
+        </div>
+        <div class="panel-body height-455">
+            <div class="col-xs-12">
+
+                <div class="social-row">
+                    <div class="media">
+                        <div class="media-right">
+                            <i class="fa fa-mobile website-icon"></i>
+                        </div>
+                        <div class="media-body" style="padding-right:5px;">
+                            <p class="text-primary" style="margin-bottom:0px;">رقم الجوال </p>
+                            <p class="text-primary"><a href="tel:0563595011">0563595011</a></p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="social-row">
+                    <div class="media">
+                        <div class="media-right">
+                            <i class="fa fa-envelope-square website-icon"></i>
+                        </div>
+                        <div class="media-body">
+                            <p class="text-primary" style="margin-bottom:0px;">البريد الإلكتروني </p>
+                            <p class="text-primary"><a href="mailto:bstoore12@gmail.com"> bstoore12@gmail.com </a></p>
+                        </div>
+
+                    </div>
+                </div>
+                    <div class="wrraper">
+
+                            <div class="col">
+
+                                <div class="social-row">
+                                    <div class="media">
+                                        <div class="media-right">
+                                            <i class="fa fa-instagram inst-icon"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="text-primary" style="margin-bottom:0px;">إنستجرام </p>
+                                            <p class="text-primary"><a href="https://instagram.com/bistore_12" title="https://instagram.com/bistore_12" target="_blank">https://instagram.com/bistore_12 ...</a></p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        
+
+
+                            </div>
+
+                    </div>
+                        <div class="col full">
+                            <div class="social-row">
+                                <div class="media">
+                                    <div class="media-right">
+                                        <img src="./index_files/Bitmap 01.png">
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="text-primary" style="margin-bottom:0px;">واتس آب </p>
+                                        <p class="text-primary"><a href="https://wa.me/966501344051" target="_blank">966501344051</a></p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col full">
+
+                            
+                        </div>
+                                    <div class="social-row">
+                        <div class="media">
+                            <div class="media-right">
+                                <i class="fa fa-map-marker website-icon"></i>
+                            </div>
+                            <div class="media-body">
+                                <p class="text-primary" style="margin-bottom:0px;">عنوان المتجر</p>
+                                <p class="text-primary">
+                                    6820 عمر بن الخطاب, الزهور
+                                    <br>
+6                                        <br>
+                                    ينبع, 46424 - 3363
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+            </div>
+                
+<div class="col-md-4 col-xs-12">
+    <div class="panel panel-maroof panel-default">
+        <div class="panel-heading font-bold">
+            <span>أعمال مشابهة</span>
+            <div class="icon">
+                <i class="fa fa-align-justify"></i>
+            </div>
+
+        </div>
+        <div class="panel-body">
+
+                <a href="https://maroof.sa/77092" class=" tab-pro-container">
+                    <div class="media">
+                        <div class="media-right">
+                            <img class="media-object img-circle img-100" alt="كارديال للساعات" src="./index_files/attachment_68629.jpg" style="border:3px solid #ccc;">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">كارديال للساعات </h3>
+                            <h4 style="margin-bottom:0px;">إلكترونيات واكسسورات</h4>
+                            <p style="margin-bottom:0px;">
+                                <span class="font-bold">التقييم:  &nbsp;&nbsp;&nbsp;</span>
+                                <span>9.8</span>
+                            </p>
+                            <h4>2074 مُقيّم</h4>
+                        </div>
+
+                    </div>
+                </a>
+                <a href="https://maroof.sa/39976" class=" tab-pro-container">
+                    <div class="media">
+                        <div class="media-right">
+                            <img class="media-object img-circle img-100" alt="أنا تقني" src="./index_files/attachment_33787.jpg" style="border:3px solid #ccc;">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">أنا تقني </h3>
+                            <h4 style="margin-bottom:0px;">إلكترونيات واكسسورات</h4>
+                            <p style="margin-bottom:0px;">
+                                <span class="font-bold">التقييم:  &nbsp;&nbsp;&nbsp;</span>
+                                <span>9.8</span>
+                            </p>
+                            <h4>1992 مُقيّم</h4>
+                        </div>
+
+                    </div>
+                </a>
+                <a href="https://maroof.sa/2809" class=" tab-pro-container">
+                    <div class="media">
+                        <div class="media-right">
+                            <img class="media-object img-circle img-100" alt="الشركة المتحدة للإلكترونيات" src="./index_files/attachment_535.jpg" style="border:3px solid #ccc;">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">الشركة المتحدة للإلكترونيات </h3>
+                            <h4 style="margin-bottom:0px;">إلكترونيات واكسسورات</h4>
+                            <p style="margin-bottom:0px;">
+                                <span class="font-bold">التقييم:  &nbsp;&nbsp;&nbsp;</span>
+                                <span>2.5</span>
+                            </p>
+                            <h4>681 مُقيّم</h4>
+                        </div>
+
+                    </div>
+                </a>
+        </div>
+    </div>
+</div>
+
+
+
+        <div class="col-md-8 col-xs-12 hidden-sm hidden-xs">
+
+    <div class="panel panel-maroof panel-default">
+        <div class="panel-heading font-bold">
+            <span> معلومات الاتصال </span>
+            <div class="icon">
+                <i class="fa fa-volume-control-phone"></i>
+            </div>
+        </div>
+        <div class="panel-body height-455">
+            <div class="col-xs-12">
+                
+                <div class="social-row">
+                    <div class="media">
+                        <div class="media-right">
+                            <i class="fa fa-mobile website-icon"></i>
+                        </div>
+                        <div class="media-body" style="padding-right:5px;">
+                            <p class="text-primary" style="margin-bottom:0px;">رقم الجوال </p>
+                            <p class="text-primary"><a href="tel:0505373777">0505373777</a></p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="social-row">
+                    <div class="media">
+                        <div class="media-right">
+                            <i class="fa fa-envelope-square website-icon"></i>
+                        </div>
+                        <div class="media-body">
+                            <p class="text-primary" style="margin-bottom:0px;">البريد الإلكتروني </p>
+                            <p class="text-primary"><a href="mailto:Info@bstore12.com"> Info@bstore12.com </a></p>
+                        </div>
+
+                    </div>
+                </div>
+                    <div class="wrraper">
+                            <div class="col">
+
+                                <div class="social-row">
+                                    <div class="media">
+                                        <div class="media-right">
+                                            <i class="fa fa-instagram inst-icon"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="text-primary" style="margin-bottom:0px;">إنستجرام </p>
+                                            <p class="text-primary"><a href="https://instagram.com/bstore_12" title="https://instagram.com/bstore_12" target="_blank">https://instagram.com/bstore_1 ...</a></p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col full-mobile">
+                                <div class="social-row">
+                                    <div class="media">
+                                        <div class="media-right">
+                                            <i class="fa fa-twitter-square tw-icon"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="text-primary" style="margin-bottom:0px;">تويتر </p>
+                                            <p class="text-primary"><a href="https://twitter.com/B_store12" title="https://twitter.com/B_store12" target="_blank">https://twitter.com/B_store12</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                    </div>
+                        <div class="col full">
+                            <div class="social-row">
+                                <div class="media">
+                                    <div class="media-right">
+                                        <img src="./index_files/Bitmap 01.png">
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="text-primary" style="margin-bottom:0px;">واتس آب </p>
+                                        <p class="text-primary"><a href="https://wa.me/966505373777" target="_blank">966505373777</a></p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col full">
+
+                            <div class="social-row">
+                                <div class="media">
+                                    <div class="media-right">
+                                        <img src="./index_files/Bitmap 02.png">
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="text-primary" style="margin-bottom:0px;">تليجرام </p>
+                                        <p class="text-primary"><a href="https://t.me/bstore_12" title="https://t.me/bstore_12" target="_blank" id="telegramUrlAnchor">https://t.me/bstore_12</a></p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    <div class="social-row">
+                        <div class="media">
+                            <div class="media-right">
+                                <i class="fa fa-map-marker website-icon"></i>
+                            </div>
+                            <div class="media-body">
+                                <p class="text-primary" style="margin-bottom:0px;">عنوان المتجر</p>
+                                <p class="text-primary">
+
+                                    6820 عمر بن الخطاب, الزهور
+                                    <br>
+6                                        <br>
+                                    ينبع, 46424 - 3363
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+        </div>
+            </div>
+        </div>
+<div id="CertificateAddCommentdiv">
+    <style>
+        .pending-com {
+            padding: 10px;
+            background: #fceeee;
+        }
+    </style>
+    <div class="row">
+
+        <div class="container">
+            <div class="col-md-8 col-xs-12 pull-left">
+                <div class="panel panel-maroof panel-default">
+                    <div class="panel-heading font-bold">
+                        <span> التعليقات (53)</span>
+                        <div class="icon">
+                            <i class="fa fa-comment"></i>
+                        </div>
+                    </div>
+
+                    <div class="panel-body height-455">
+                        <div id="CommentMessageDiv" style="display:none">
+                            <label id="" class="col-md-12 text-right alert alert-danger">لتقييم العمل أو التعليق عليه تفضل بتسجيل الدخول عن طريق :</label>
+                        </div>
+                            <form id="socialform" action="https://maroof.sa/Account/ExternalLogin?ReturnUrl=~%2F107878" method="post">
+                                <input name="__RequestVerificationToken" type="hidden" value="10HptpeWDx3hLMxkG5o09Ofy8nft7rF3IIf-74LKyfU3jWnzsVKVrC-ufIyCk284AqjPME5XYfFLQycyobKEXVfP0-Nfl9yKE0w4P-z67fA1">
+                                <div class="col-md-12 pull-left col-xs-12 text-center">
+                                    <button type="submit" class="btn1 btn-social btn-facebook text-center" style="border:none;" id="Facebook" name="provider" value="Facebook" title="Log in using your Facebook account"><i class="fa fa-facebook"></i><span>Facebook</span></button>
+                                    <button type="submit" class="btn1 btn-social btn-twitter text-center" style="border:none;" id="Twitter" name="provider" value="Twitter" title="Log in using your Twitter account"><i class="fa fa-twitter"></i><span>Twitter</span></button>
+                                    <button type="submit" class="btn1 btn-social btn-google text-center" style="border:none;" id="Google" name="provider" value="Google" title="Log in using your Google account"><i class="fa fa-google"></i><span>Google</span></button>
+                                    <a class="btn1 btn-social btn-maroof-c text-center" style="border:none;" id="maroofauth" name="provider" title="Log in using your Maroof account" href="https://maroof.sa/Account/ELogin?ReturnUrl=~%2F107878">
+                                        <img src="./index_files/Maroof-btn.png">Maroof
+                                    </a>
+                                </div>
+                            </form>
+                        
+<form action="https://maroof.sa/BusinessCertificate/AddRate" data-ajax="true" data-ajax-failure="onFailureAddRateForm" data-ajax-loading="#dialog_loader" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="onSuccessAddRateForm" data-ajax-update="#CertificateAddCommentdiv" id="AddRatetForm" method="post" novalidate="novalidate">    <div class="col-xs-12 col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 mar-top-40">
+        <span class="h3" style="margin-left:20px;position: relative;top: -19px; float:right;">قيم العمل </span>
+        <span class="h3">
+            <span id="rate1" class="rate-1"></span>
+            <span id="rate2" class="rate-2"></span>
+            <span id="rate3" class="rate-3"></span>
+            <span id="rate4" class="rate-4"></span>
+            <span id="rate5" class="rate-5"></span>
+            <input data-val="true" data-val-number="الرجاء ادخال Rating بصيغة صحيحة" data-val-required="Rating مطلوب" id="Rating" name="Rating" type="hidden" value="0">
+            <input data-val="true" data-val-number="الرجاء ادخال BusinessId بصيغة صحيحة" data-val-required="BusinessId مطلوب" id="BusinessId" name="BusinessId" type="hidden" value="107878">
+
+            
+        </span>
+        <span class="h3 pull-right">
+            <span id="rateResult"></span>
+        </span>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3 class="modal-title" id="myModalLabel">تقييم العمل </h3>
+                </div>
+                <div class="modal-body">
+                    <label for="" id="LikeQ">ما الذي لم يعجبك ؟</label>
+                    <textarea class="form-control comment-text" cols="20" data-val="true" data-val-maxlength="يجب أن لايزيد عدد حروف لسبب الاستياء عن 300 حرف" data-val-maxlength-max="300" id="Reason" maxlength="300" name="Reason" rows="2" style="resize:none"></textarea>
+                    <span class="field-validation-valid" data-valmsg-for="Reason" data-valmsg-replace="true" id="ReasonValidation"></span>
+                   
+                </div>
+                <div class="modal-footer">
+
+                        <button type="button" onclick="RateSubmit()" class="btn btn-primary" id="AddRateSubmit" name="AddRateSubmit" value="2" disabled="disabled">اعتماد التقييم</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="removeActiveRatingClass()">إلغاء التقييم</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        $(function () {
+            init_validators('#AddCommentForm');
+        });
+
+
+        function onSuccessAddComentForm(data) {
+            //debugger;
+
+            $("#Comment").val("");
+        }
+        function onFailureAddComentForm(req, status, error) {
+            // debugger;
+            if (!req.responseJSON) console.error(req.responseText);
+            if (req.responseJSON && req.responseJSON.modelStateErrors && req.responseJSON.modelStateErrors.length)
+                renderModelStateErrors('form', req.responseJSON.modelStateErrors);
+            else $("#addCommentValidation").html("<div class='alert alert-danger'>" + req.responseJSON.message + "</div>");
+        }
+
+        $(document).ready(function () {
+
+            var RatingVal = $("#Rating").val();
+            switch (RatingVal) {
+                case "1":
+                    frate1();
+                    break;
+                case "2":
+                    frate2();
+                    break;
+                case "3":
+                    frate3();
+                    break;
+                case "4":
+                    frate4();
+                    break;
+                case "5":
+                    frate5();
+                    break;
+                default:
+                    removeAll();
+                    break;
+
+            };
+
+            var rate1 = document.getElementById('rate1');
+            var rate2 = document.getElementById('rate2');
+            var rate3 = document.getElementById('rate3');
+            var rate4 = document.getElementById('rate4');
+            var rate5 = document.getElementById('rate5');
+            var AddRateform = document.getElementById("AddRatetForm");
+
+            rate1.addEventListener('click', function () {
+
+                if ($("#Rating").val() == "1") {
+                    removeAll();
+                    RateSubmit();
+                } else {
+                    var Auth = "False";
+
+                    if (Auth == "True") {
+                        frate1();
+                        $("#Rating").val("1");
+                        $("#Reason").val("");
+                        $("#LikeQ").show();
+
+                        $("#Reason").show();
+                        $('#myModal').modal('toggle');
+
+
+                    } else {
+                        $('#myModal').modal('hide');
+                        $("#CommentMessageDiv").show();
+                    }
+                }
+            }, false);
+
+            rate2.addEventListener('click', function () {
+                if ($("#Rating").val() == "2") {
+                    removeAll();
+                    RateSubmit();
+                } else {
+                    var Auth = "False";
+
+                    if (Auth == "True") {
+                        frate2();
+                        $("#Rating").val("2");
+                        $("#Reason").val("");
+                        $("#Reason").show();
+                        $("#LikeQ").show();
+
+                        $('#myModal').modal('toggle');
+                    } else {
+                        $('#myModal').modal('hide');
+                        $("#CommentMessageDiv").show();
+                    }
+                }
+
+
+            }, false);
+
+            rate3.addEventListener('click', function () {
+                if ($("#Rating").val() == "3") {
+                    removeAll();
+                    RateSubmit();
+                } else {
+                    var Auth = "False";
+
+                    if (Auth == "True") {
+                        frate3();
+                        $("#Rating").val("3");
+                        $("#Reason").val("");
+                        $("#Reason").hide();
+                        $("#LikeQ").hide();
+                        $("ReasonValidation").html("");
+                        RateSubmit();
+                    } else {
+                        $('#myModal').modal('hide');
+                        $("#CommentMessageDiv").show();
+                    }
+
+                }
+
+            }, false);
+
+            rate4.addEventListener('click', function () {
+
+                if ($("#Rating").val() == "4") {
+
+                    removeAll();
+                    RateSubmit();
+                } else {
+                    var Auth = "False";
+                    if (Auth == "True") {
+                        frate4();
+                        $("#Rating").val("4");
+                        $("#Reason").val("");
+                        $("#Reason").hide();
+                        $("#LikeQ").hide();
+                        $("ReasonValidation").html("");
+                        RateSubmit();
+                    } else {
+                        $('#myModal').modal('hide');
+                        $("#CommentMessageDiv").show();
+                    }
+                }
+            }, false);
+
+            rate5.addEventListener('click', function () {
+
+                if ($("#Rating").val() == "5") {
+                    removeAll();
+                    RateSubmit();
+                } else {
+                    var Auth = "False";
+                    if (Auth == "True") {
+
+                        frate5();
+                        $("#Rating").val("5");
+                        $("#Reason").val("");
+                        $("#Reason").hide();
+                        $("#LikeQ").hide();
+                        $("#ReasonValidation").html("");
+                        RateSubmit();
+                    } else {
+                        $('#myModal').modal('hide');
+                        $("#CommentMessageDiv").show();
+                    }
+                }
+
+
+            }, false);
+            function removeAll() {
+                $("#Rating").val("0");
+                $("#rate5").removeClass("active-r");
+                $("#rate4").removeClass("active-r");
+                $("#rate3").removeClass("active-r");
+                $("#rate2").removeClass("active-r");
+                $("#rate1").removeClass("active-r");
+                $('#rateResult').html("");
+                //RateSubmit();
+            }
+            function frate1() {
+                $("#Rating").val("1");
+                $("#rate1").addClass("active-r");
+                //remove
+                $("#rate5").removeClass("active-r");
+                $("#rate4").removeClass("active-r");
+                $("#rate3").removeClass("active-r");
+                $("#rate2").removeClass("active-r");
+
+            }
+            function frate2() {
+                $("#Rating").val("2");
+                $("#rate2").addClass("active-r");
+                $("#rate1").removeClass("active-r");
+                //remove
+                $("#rate5").removeClass("active-r");
+                $("#rate4").removeClass("active-r");
+                $("#rate3").removeClass("active-r");
+
+            }
+
+            function frate3() {
+                $("#Rating").val("3");
+                $("#rate3").addClass("active-r");
+                $("#rate2").removeClass("active-r");
+                $("#rate1").removeClass("active-r");
+                //
+                $("#rate5").removeClass("active-r");
+                $("#rate4").removeClass("active-r");
+
+            }
+            function frate4() {
+                $("#Rating").val("4");
+                $("#rate4").addClass("active-r");
+                $("#rate2").removeClass("active-r");
+                $("#rate1").removeClass("active-r");
+                $("#rate3").removeClass("active-r");
+                //
+                $("#rate5").removeClass("active-r");
+
+            }
+
+            function frate5() {
+
+                $("#Rating").val("5");
+                $("#rate5").addClass("active-r");
+                $("#rate4").removeClass("active-r");
+                $("#rate2").removeClass("active-r");
+                $("#rate1").removeClass("active-r");
+                $("#rate3").removeClass("active-r");
+            }
+        });
+        
+        function RateSubmit() {
+            var RateForm = $("#AddRatetForm");
+            if (RateForm.valid())
+                RateForm.submit()
+        }
+
+        function removeActiveRatingClass() {
+            //debugger;
+            var ratingVal = $('#Rating').val();
+            $('#rate' + ratingVal).removeClass("active-r");
+        }
+
+        function onSuccessAddRateForm() {
+            //debugger;
+            $('#rateResult').html("شكرا لتقييمك");
+            $('#myModal').modal('hide');
+            $(".modal-backdrop").remove();
+            document.body.className = document.body.className.replace("modal-open", "");
+        }
+        function onFailureAddRateForm(req, status, error) {
+
+            $('#myModal').modal('hide');
+            //debugger;
+            if (!req.responseJSON) console.error(req.responseText);
+            if (req.responseJSON && req.responseJSON.modelStateErrors && req.responseJSON.modelStateErrors.length)
+                renderModelStateErrors('form', req.responseJSON.modelStateErrors);
+            else $("#rateResult").html(req.responseJSON.message);
+            $(".modal-backdrop").remove();
+            document.body.className = document.body.className.replace("modal-open", "");
+        }
+    </script>
+</form>
+<form action="https://maroof.sa/BusinessCertificate/AddComment" data-ajax="true" data-ajax-failure="onFailureAddComentForm" data-ajax-loading="#dialog_loader" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="onSuccessAddComentForm" data-ajax-update="#CertificateAddCommentdiv" id="AddCommentForm" method="post" novalidate="novalidate">    <div class="col-xs-12" id="CommentDiv">
+
+<textarea class="form-control comment-text" cols="20" data-val="true" data-val-maxlength="التعليق يجب أن لا يزيد عن 300 حرف" data-val-maxlength-max="300" data-val-required="التعليق مطلوب" disabled="disabled" id="Comment" name="Comment" placeholder="أخبرنا عن رأيك..." rows="2" style="resize:none"></textarea><span class="field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true"></span>        <input data-val="true" data-val-number="الرجاء ادخال BusinessId بصيغة صحيحة" data-val-required="The BusinessId field is required." id="BusinessId" name="BusinessId" type="hidden" value="107878">
+</div>
+    <div class="col-xs-12 text-right" id="addCommentValidation"></div>
+        <div class="col-xs-12 text-left">
+                    <button type="submit" class="btn btn-primary" id="AddCommentSubmit" name="AddCommentSubmit" value="2" disabled="disabled">أضف تعليق</button>
+       
+                <br>
+            </div>
+        <br>
+</form>        <script type="text/javascript">
+            //hidePleaseWait();
+            $(document).ready(function () {
+                var Auth = "False";
+                $("#CommentMessageDiv").hide();
+                var CommentDiv = document.getElementById('CommentDiv');
+                CommentDiv.addEventListener('click', function () {
+                    if (Auth == "False") {
+                        $("#CommentMessageDiv").show();
+                    }
+                }, false);
+               
+                CommentDiv.addEventListener('keypress', Commentlistener, false);
+                CommentDiv.addEventListener('change', Commentlistener, false);
+                
+
+
+                function Commentlistener() {
+                    if (Auth == "True") {
+                        if ($("#AddCommentForm").valid() & $("#AddCommentSubmit").length>0) {
+                            $("#AddCommentSubmit").removeAttr("disabled", "disabled");
+                        } else {
+                            $("#AddCommentSubmit").attr("disabled", "disabled");
+                        }
+                    } else {
+                        $("#AddCommentSubmit").attr("disabled", "disabled");
+                    }
+
+                }
+            });
+       
+        </script>
+                                                                            <div class="col-xs-12">
+                                        <div class="media comment-row">
+                                            <div class="media-right">
+                                                    <img class="media-object img-75" src="./index_files/unnamed.png" onerror="this.onerror=null;this.src=&#39;../Content/dist/images/user.png&#39;;" style="border:3px solid #ccc;">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading text-primary"><span>Mohannad Alhosaini</span></h4>
+                                                <p style="margin-bottom:0px;">
+                                                    <span>صراحة متجر ممتاز بالاسعار وبالجودة وبسرعه التوصيل 🤍🤍..</span>
+                                                </p>
+                                                <input type="hidden" name="businessId" value="107878" id="businessId">
+                                                    <p class="small text-info">السبت 16-10-2021 03:07 ص</p>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="media comment-row">
+                                            <div class="media-right">
+                                                    <img class="media-object img-75" src="./index_files/unnamed(1).png" onerror="this.onerror=null;this.src=&#39;../Content/dist/images/user.png&#39;;" style="border:3px solid #ccc;">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading text-primary"><span>A</span></h4>
+                                                <p style="margin-bottom:0px;">
+                                                    <span>من احسن وافضل المتاجر الاجهزه الذكيه سوا اكسسوار او اساسيات جداً جميل من ناحيه العروض جداً وضمانها وبالنسبه لشحن والتوصيل الالتزام السريع جداً بالموعد وهذا احسن شي ❤️</span>
+                                                </p>
+                                                <input type="hidden" name="businessId" value="107878" id="businessId">
+                                                    <p class="small text-info">الجمعة 08-10-2021 05:10 م</p>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="media comment-row">
+                                            <div class="media-right">
+                                                    <img class="media-object img-75" src="./index_files/unnamed.jpg" onerror="this.onerror=null;this.src=&#39;../Content/dist/images/user.png&#39;;" style="border:3px solid #ccc;">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading text-primary"><span>Haya Faisal</span></h4>
+                                                <p style="margin-bottom:0px;">
+                                                    <span>تعامل رائع اهنيهم</span>
+                                                </p>
+                                                <input type="hidden" name="businessId" value="107878" id="businessId">
+                                                    <p class="small text-info">الأربعاء 06-10-2021 01:10 م</p>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="media comment-row">
+                                            <div class="media-right">
+                                                    <img class="media-object img-75" src="./index_files/unnamed(2).jpg" onerror="this.onerror=null;this.src=&#39;../Content/dist/images/user.png&#39;;" style="border:3px solid #ccc;">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading text-primary"><span>Dark _33</span></h4>
+                                                <p style="margin-bottom:0px;">
+                                                    <span>شهادتي فيكم مجروحه ،متجر يستاهل مليووون نجمه والله العظيم أسعار رخيصه وفوقها كود خصم وبعد شحن مجاني إذا وصلت سعر مو كبير وفوق ذا كله عندهم نظام التقسيط </span>
+                                                </p>
+                                                <input type="hidden" name="businessId" value="107878" id="businessId">
+                                                    <p class="small text-info">الإثنين 20-09-2021 02:02 ص</p>
+
+                                            </div>
+
+                                        </div>
+                                        <div id="loadMore" class="col-xs-12 text-center" style="padding:20px 0px;">
+                                            <button class="btn btn-primary" onclick="loadMore()">مشاهدة المزيد</button>
+                                        </div>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal hide" id="pleaseWaitDialog" data-backdrop="static" data-keyboard="false">
+        <div class="modal-header">
+            <h1>Processing...</h1>
+        </div>
+        <div class="modal-body">
+            <div class="progress progress-striped active">
+                <div class="bar" style="width: 100%;"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script id="comments" type="text/x-handlebars-template">
+    {{#Comment}}
+    <div class="media comment-row">
+        <div class="media-right">
+            <img class="media-object img-75" src="{{ImageCommentURL Photo}}" style="border:3px solid #ccc;">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading text-primary"><span>{{CommentedByUser}}</span></h4>
+            <p style="margin-bottom:0px;">
+                <span>{{Comment}}</span>
+            </p>
+            <p class="small text-info">{{CreationDate}}</p>
+        </div>
+
+    </div>
+
+    {{/Comment}}
+</script>
+<script src="./index_files/handlebars.js.تنزيل"></script>
+<script>
+
+
+    Handlebars.registerHelper('ImageCommentURL', function (ImagePath) {
+
+        if (ImagePath == "" || ImagePath == null) {
+            return "../Content/dist/images/user.png"
+        } else {
+            return ImagePath;
+        }
+
+    });
+    var pageNumber = 1;
+    var source = $("#comments").html();
+    var template = Handlebars.compile(source);
+
+
+    function loadMore() {
+        var id = parseInt($("#businessId").val());
+        $('#dialog_loader').show();
+        var x = "~/" + id + "/" + pageNumber;
+        $.get("/" + id + "/" + pageNumber, function (data, status) {
+
+            var html = template(data);
+            $(html).insertBefore("#loadMore").hide().fadeIn(2000);
+            pageNumber = data.PageNumber;
+            var resultsCount = data.Count - (data.Size * data.PageNumber);
+
+
+            if (resultsCount <= 0) {
+                $("#loadMore").hide().fadeOut(2000);
+            }
+
+        });
+        $('#dialog_loader').hide();
+    }
+</script>
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.bar span').hide();
+        $('#bar-five').animate({
+            width: '% 97'
+        }, 1000);
+        $('#bar-four').animate({
+            width: '% 02'
+        }, 1000);
+        $('#bar-three').animate({
+            width: '% 00'
+        }, 1000);
+        $('#bar-two').animate({
+            width: '% 02'
+        }, 1000);
+        $('#bar-one').animate({
+            width: '% 00'
+        }, 1000);
+        $(".wrapper-tool").hover(function () {
+            //On Hover - Works on ios
+            $(".tooltip-bb").show();
+        }, function () {
+            //Hover Off - Hover off doesn't seem to work on iOS
+            $(".tooltip-bb").hide();
+        });
+        setTimeout(function () {
+            $('.bar span').fadeIn('slow');
+        }, 1000);
+
+        let os = getMobileOperatingSystem();
+
+        if (os == "Android") {
+
+            $("#balaghUrl").attr("href", "https://play.google.com/store/apps/details?id=com.mci.balagh")
+
+        } else if (os == "iOS") {
+
+            $("#balaghUrl").attr("href", "https://apps.apple.com/us/app/tqdym-blagh-mkhalft-tjaryt/id542190070");
+
+        }
+    });
+
+    function getMobileOperatingSystem() {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+        // Windows Phone must come first because its UA also contains "Android"
+        if (/windows phone/i.test(userAgent)) {
+            return "Windows Phone";
+        }
+
+        if (/android/i.test(userAgent)) {
+            return "Android";
+        }
+
+        // iOS detection from: http://stackoverflow.com/a/9039885/177710
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            return "iOS";
+        }
+
+        return "unknown";
+    }
+</script>
+
+            <!-- ./ BODY -->
+        </div>
+    </div><!-- MAIN CONTAINER -->
+
+    <footer>
+        <div class="logos">
+            <ul>
+                <li>
+                    <span>تطوير و تشغيل</span>
+                    <a href="https://thiqah.sa/">
+                        <img alt="thiqah" title="thiqah" src="./index_files/thiqah.svg">
+                    </a>
+                </li>
+                <li>
+                    <span>تحت إشراف</span>
+                    <a href="https://mci.gov.sa/Pages/default.aspx?AspxAutoDetectCookieSupport=1">
+                        <img alt="mci" title="mci" src="./index_files/Logo-mci.png">
+                    </a>
+                </li>
+            </ul>
+
+            <p>جميع الحقوق محفوظة ، ثقة © 2022</p>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="https://maroof.sa/">الرئيسية</a>
+                </li>
+                <li>
+                    <a href="https://maroof.sa/Home/About" class="">عن معروف</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="https://maroof.sa/Home/ContactUs" class="linkActive">تواصل معنا</a>
+                </li>
+                <li>
+                    <a href="https://maroof.sa/Home/Faq">أسئلة شائعة</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="https://maroof.sa/Home/Policy">شروط الاستخدام</a>
+                </li>
+                <li>
+                    <a href="https://maroof.sa/Home/Privacy">سياسة الخصوصية</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h4>تابعونا </h4>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/maroof_sa/" rel="noreferrer" target="_blank"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/maroof_sa/" rel="noreferrer" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCKvEaEWYEvK0d-JT7H-MzaQ" rel="noreferrer" target="_blank"><i class="fa fa-youtube-square"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!--Handlebars global helpers-->
+    <script>
+        var hash = window.location.hash;
+        try {
+            var id = getParameterByName('id', hash);
+            if (id)
+                window.location = "/" + id;
+        } catch (e) {
+
+        }
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        Handlebars.registerHelper('RatingHelper', function (Rating) {
+
+            return parseFloat(Math.round(Rating * 100) / 100).toFixed(2);
+
+        });
+
+        Handlebars.registerHelper('if', function (conditional, options) {
+            switch (options.hash.compare) {
+                case '===':
+                case '==': {
+                    if (conditional == options.hash.length)
+                        options.fn(this);
+                    else {
+                        options.inverse(this);
+                    }
+                }
+                case '>': {
+                    if (conditional > options.hash.length) {
+                        return options.fn(this);
+                    }
+                    else {
+                        return options.inverse(this);
+                    }
+                }
+                case '<': {
+                    if (conditional < options.hash.length)
+                        return options.fn(this);
+                    else {
+                        return options.inverse(this);
+                    }
+                }
+            }
+
+        });
+
+        $("#search-formNew").submit(function () {
+
+            var searchValue = $("input[name *= 'keyword']").val();
+            if (!searchValue) {
+                mciMessage('ادخل نص للبحث', mciMessageType.Danger, 3);
+                return false;
+            }
+            if (searchValue.trim().length<2) {
+                mciMessage('يجب ادخال حرفين على الاقل', mciMessageType.Danger, 3);
+                return false;
+            }
+            var regex = /[^\u0621-\u064A\u0660-\u0669\\s\\da-zA-Z0-9]+$/;
+            var res = regex.test(searchValue);
+            if (res == true) {
+                mciMessage('يجب ان تكون القيمة المدخلة بدون رموز', mciMessageType.Danger, 3);
+                return false;  // block the default submit action
+            }
+            else
+                return true;
+
+        });
+
+
+    </script>
+
+    <script id="notifications-menu-template" type="text/x-handlebars-template">
+        {{#notifications}}
+        <li onclick=markAsViewed({{Id}},this)><a href="/{{BusinessId}}">{{Title}}</a></li>
+        {{/notifications}}
+    </script>
+
+
+    <script type="text/javascript">
+        var clicky_site_ids = clicky_site_ids || [];
+        clicky_site_ids.push(100935705);
+        (function () {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//static.getclicky.com/js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+        })();
+    </script>
+    
+    <noscript><p><img alt="Clicky" title="Clicky" width="1" height="1" src="//in.getclicky.com/100935705ns.gif" /></p></noscript>
+
+    <div id="dialog_loader" class="pop-loading" style="display: none">
+        <section>
+            <div class="loader-icon"><img alt="loading" title="loading" src="./index_files/loading-1.png" class="img-responsive"></div>
+        </section>
+    </div>
+
+    <script>
+        function markAsViewed(id, control) {
+            $.get("/Notifications/MarkAsViewed?id=" + id, function (data) {
+                $('#' + control.id).remove();
+            })
+        }
+    </script>
+    
+    <script>
+        //if ('serviceWorker' in navigator) {
+        //    navigator.serviceWorker
+        //        .register('/serviceworker.js')
+        //        .then(function () { /* console.log('Service Worker Registered'); */ });
+        //}
+    </script>
+    <script>
+        ; (function (d, s, c) {
+            var j = d.createElement(s),
+                t = d.getElementsByTagName(s)[0]
+
+            //j.src = 'https://<your-cdn-host>.com/path/to/elastic-apm-rum.umd.min-<version>.js'
+
+            j.src = '/Content/Dev/js/elastic-apm-rum.umd.min.js'
+            j.onload = function () {
+                elasticApm.init(c);
+
+            }
+            t.parentNode.insertBefore(j, t)
+        })(document, 'script', {
+            serviceName: 'Maroof-Web-FE',
+            serverUrl: 'https://rum.thiqah.sa',
+            environment: 'Production'
+        });
+    </script>
+
+</body></html>
